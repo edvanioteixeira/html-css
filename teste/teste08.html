@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 08</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#cabecalho {
+            text-align: center;
+            padding: 20px;
+            background-color: darkgray;
+        }
+
+        div#corpo {
+            display: flex;
+            width: 60vw;
+            margin: auto;
+            padding: 10px;
+            background-color: bisque;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+        }
+
+        div.container {
+            display: flex;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            background-color: aqua;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        div.container > p {
+            text-align: center;
+        }
+
+        div#rodape {
+            text-align: center;
+            padding: 20px;
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecalho">
+        <h1>CSS: Flexbox</h1>
+        <h2>Trabalhando com caixas flexíveis</h2>
+    </div>
+
+    <div id="corpo">
+        <div class="container">
+            <p>Caixa 01</p>
+        </div>
+        <div class="container">
+            <p>Caixa 02</p>
+        </div>
+        <div class="container">
+            <p>Caixa 03</p>
+        </div>
+        <div class="container">
+            <p>Caixa 04</p>
+        </div>
+        <div class="container">
+            <p>Caixa 05</p>
+        </div>
+        <div class="container">
+            <p>Caixa 06</p>
+        </div>
+        <div class="container">
+            <p>Caixa 07</p>
+        </div>
+    </div>
+
+    <div id="rodape">
+        <p>Produzido por ETS Web Developer</p>
+    </div>
+</body>
+</html>
