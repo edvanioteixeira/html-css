@@ -74,6 +74,11 @@ main > article > .conteudo > .imagem {
     background-color: blue;
 }
 
+main > article > .conteudo > .imagem > img {
+    width: 100%;
+    height: 100%;
+}
+
 main > article > .conteudo > .playlist {
     width: 55%;
 }
