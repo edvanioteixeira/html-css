@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 0, 99); 
+    padding: 20px;
+}
+
+header > .cabecalho {
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .cabecalho > h1 {
+    color: white;
+}
+
+header > .cabecalho > nav {
+    width: 40%;
+}
+
+header > .cabecalho > nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > .cabecalho > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > .cabecalho > nav > ul > li > a:hover {
+    color: lightblue;
+}
+
+main {
+    width: 60vw;
+    margin: auto;
+}
+
+main > article {
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main > article > h2 {
+    padding: 10px 0px 10px 0px;
+}
+
+main > article > .conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+main > article > .conteudo > .imagem {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+main > article > .conteudo > .playlist {
+    width: 55%;
+}
+
+main > article > .conteudo > .playlist > ol {
+    line-height: 1.5em;
+}
+
+main > article > .conteudo > .playlist  > p {
+    text-align: center;
+    padding: 20px;
+}
+
+main > article > .conteudo > .playlist > p > a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .5em;
+}
+
+footer {
+    background-color: rgb(0, 0, 99);
+    padding: 20px;
+}
+
+footer > .rodape {
+    width: 60vw;
+    margin: auto;
+}
+
+footer > .rodape > p {
+    color: white;
+    text-align: center;
+}
