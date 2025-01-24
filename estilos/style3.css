@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header > .topo {
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .topo > nav {
+    width: 50%;
+}
+
+header > .topo > nav > ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header > .topo > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+
+header > .topo > nav > ul > li > a:hover {
+    border-bottom: 2px solid red;
+}
+
+header > .banner {
+    height: 500px;
+    background-image: url(../teste/imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main #discos {
+    background-color: rgb(61, 61, 61);
+    padding-top: 30px;
+}
+
+main #discos > h2 {
+    color: white;
+    text-align: center;
+}
+
+main #discos > h3 {
+    color: white;
+    text-align: center;
+}
+
+main #discos > p {
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+main > #discos > .container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > #discos > .container > .card-disco {
+    width: 200px;
+    height: 200px;
+}
+
+main > #discos > .container > .card-disco > img {
+    width: 100%;
+    height: 100%;
+}
