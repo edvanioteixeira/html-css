@@ -1,0 +1,273 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+}
+
+#topo {
+    width: 80vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+
+#topo > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+#topo > nav {
+    width: 50%;
+}
+
+#topo > nav > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#topo > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#topo > nav > ul > li > a:hover {
+    border-bottom: 2px solid red;
+}
+
+
+
+
+.banner {
+    height: 700px;
+    background-image: url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main {
+    
+    
+}
+
+#discografia {
+    background-color: rgb(71, 71, 71);
+    padding: 50px 0px 20px 0px;
+}
+
+#discografia > h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#discografia > h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#discografia > p {
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+#discografia > .container {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#discografia > .container > .card-disco {
+    width: 200px;
+    height: 200px;
+}
+
+#discografia > .container > .card-disco > a > img {
+    width: 100%;
+}
+
+#filmes {
+    background-color: rgb(185, 0, 0);
+    padding: 50px 0px 20px 0px;
+}
+
+#filmes > h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#filmes > p {
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+#filmes > .container {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#livros {
+    background-color: rgb(71, 71, 71);
+    padding: 50px 0px 20px 0px;
+}
+
+#livros > h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#livros > p {
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+#livros > .container {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#livros > .container > .card-livro {
+    width: 200px;
+    height: 300px;
+}
+
+#livros > .container > .card-livro > a > img {
+    width: 100%;
+    height: 280px;
+}
+
+#contato {
+    background-color: rgb(185, 0, 0);
+    padding: 50px 0px 20px 0px;
+}
+
+#contato > h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#contato > p {
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+#contato > form {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contato > form > .campo-form > label {
+    margin-left: 10px;
+}
+
+#contato > form > .campo-form > input {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#contato > form > .botao {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#contato > form > .botao > input {
+    width: 30%;
+    height: 50px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+#contato > form > .botao > input:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: .9em;
+}
