@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 16</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .pai {
+            background-color: aqua;
+            width: 60vw;
+            margin: auto;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .mae {
+            background-color: aqua;
+            width: 60vw;
+            margin: auto;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .texto {
+            background-color: aqua;
+            width: 60vw;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .filho {
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+        }
+
+        .pai > .filho:first-child {
+            background-color: red;
+        }
+
+        .mae > .filho:last-child {
+            background-color: green;
+        }
+
+         h1 {
+            border-bottom: 2px solid black;
+            margin-bottom: 20px;
+         }
+
+         p {
+            font-size: 1.3em;
+            line-height: 2em;
+            text-indent: 20px;
+            margin-bottom: 30px;
+         }
+
+         p::first-letter {
+            font-size: 2em;
+            font-weight: bolder;
+            color: red;
+         } 
+
+         p::first-line {
+            font-style: italic;
+         }
+
+         @media (max-width: 800px) {
+            .pai {
+                background-color: white;
+            }
+            .mae {
+                background-color: white;
+            }
+            .texto {
+                background-color: white;
+            }
+         }
+
+    </style>
+</head>
+<body>
+    <div class="texto">
+        <h1>Título Principal</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores animi atque vel, cupiditate ea dolorem quis, placeat earum harum nulla aliquam molestias vero! Sapiente error accusantium iure deserunt voluptas quod? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum sed rerum provident est harum inventore veniam debitis consectetur pariatur sit dolor laudantium voluptates aperiam, atque aspernatur quos, alias consequuntur nemo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi iste ut nam voluptatem corrupti enim, repudiandae eligendi deleniti, reprehenderit consectetur animi doloremque sequi blanditiis recusandae amet? Iste, non ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eligendi ipsa facere exercitationem architecto porro possimus temporibus non est suscipit maxime, pariatur, aliquid asperiores saepe qui dicta assumenda enim! Quaerat.</p>
+    </div>
+    <div class="pai">
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+    </div>
+    <div class="mae">
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+    </div>
+   
+</body>
+</html>
